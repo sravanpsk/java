@@ -1,0 +1,32 @@
+package practise;
+
+import java.util.Arrays;
+
+public class maxNumArray {
+	
+	 static int max = 0;
+
+	public static void main(String[] args) {
+		
+		
+		int[] a = {3,1,2,5,6,4,3,7,6};
+		
+	 Arrays.sort(a);
+	
+	 
+	 for(int i = 0;i<a.length;i++)
+	 {
+	maximum(a[i]);
+	 }
+	 
+}
+
+	private static int maximum(int i) {
+		// TODO Auto-generated method stub
+		if(i>max) {
+			return i;
+		}
+		return i;
+	}
+
+}
